@@ -4,6 +4,6 @@ COPY server.js ./
 ADD public ./public/
 EXPOSE 3000
 RUN npm install express
-CMD ["node", "server.js"]
+CMD ["node", "server.js"] # vani
  
 
